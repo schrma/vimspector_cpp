@@ -1,0 +1,14 @@
+{
+  "configurations": {
+      "launch": {
+        "adapter": "vscode-cpptools",
+        "configuration": {
+            "request": "launch",
+            "program": "Debug/app",
+            "cwd": "/home/marco/Documents/project/hello_world",
+            "externalConsole": true,
+            "MIMode": "gdb"
+        }
+      }
+  }
+}
