@@ -9,6 +9,9 @@
             "stopOnEntry": true,
             "protocol": "auto",
             "console": "integratedTerminal",
+            "args": [ 
+            "mountains.jpg",
+            2 ],
             "cwd": "${workspaceRoot}",
             "externalConsole": true,
             "MIMode": "gdb"
