@@ -5,7 +5,10 @@
         "configuration": {
             "request": "launch",
             "program": "${workspaceRoot}/Debug/app",
+            "stopAtEntry": true,
             "stopOnEntry": true,
+            "protocol": "auto",
+            "console": "integratedTerminal",
             "cwd": "${workspaceRoot}",
             "externalConsole": true,
             "MIMode": "gdb"

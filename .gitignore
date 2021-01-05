@@ -1,5 +1,1 @@
-*.cmake
-CMakeFiles
-CMakeCache.txt
-Makefile
-
+Debug/
