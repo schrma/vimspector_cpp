@@ -4,8 +4,9 @@
         "adapter": "vscode-cpptools",
         "configuration": {
             "request": "launch",
-            "program": "Debug/app",
-            "cwd": "/home/marco/Documents/project/hello_world",
+            "program": "${workspaceRoot}/Debug/app",
+            "stopOnEntry": true,
+            "cwd": "${workspaceRoot}",
             "externalConsole": true,
             "MIMode": "gdb"
         }
